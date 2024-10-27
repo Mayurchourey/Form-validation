@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULATOR HTML,CSS,JS</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>calculator</h1>
+        <div class="row">
+            <input type="text" name="result" id="result" value="" placeholder="result" readonly/>
+            <input type="button" value="+" onclick="setscreenvalue('+')"/>
+            <input type="button" value="1" onclick="setscreenvalue('1')"/>
+            <input type="button" value="2" onclick="setscreenvalue('2')"/>
+            <input type="button" value="3" onclick="setscreenvalue('3')"/>
+            <input type="button" value="-" onclick="setscreenvalue('-')"/>
+        </div>
+        <div class="row">
+            <input type="button" value="+" onclick="setscreenvalue('4')"/>
+            <input type="button" value="1" onclick="setscreenvalue('5')"/>
+            <input type="button" value="2" onclick="setscreenvalue('6')"/>
+            <input type="button" value="2" onclick="setscreenvalue('*')"/>
+        </div>
+        <div class="row">
+            <input type="button" value="+" onclick="setscreenvalue('7')"/>
+            <input type="button" value="1" onclick="setscreenvalue('8')"/>
+            <input type="button" value="2" onclick="setscreenvalue('9')"/>
+            <input type="button" value="2" onclick="setscreenvalue('/')"/>
+        </div>
+        <div class="row">
+            <input type="button" value="0" onclick="setscreenvalue('7')"/>
+            <input type="button" value="%" onclick="setscreenvalue('8')"/>
+            <input type="button" value="." class="point" onclick="setscreenvalue('9')"/>
+            <input type="button" value="2" onclick="setscreenvalue('/')"/>
+        </div>
+    </div>
+</body>
+</html>
